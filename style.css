@@ -1,0 +1,197 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #fff;
+    padding: 20px 50px;
+    margin:auto;
+    line-height: 1.5;
+    width:100%;
+    text-align: center;
+}
+h2{
+    text-align: start;
+}
+h3, p{
+    text-align: left;
+    padding: none;
+ }
+.btn{
+    display: inline-block;
+    border:none;
+    color:white;
+    padding:5px;
+    font-size: 12px;
+    background: blue;
+    text-decoration: none;
+    width:170px;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+.main-header .header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.main-header .header .logo{
+    margin-left:50px;
+}
+ .navbar ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 90px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    color:#333;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    min-height: 400px;
+}
+.container .one h2{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    align-items: start;
+}
+.container .one{
+    width:30%;
+    height:30%;
+}
+.container .one p{
+    margin-top: 20px;
+    text-align: start;
+}
+.container .one input,
+.container .one a{
+    margin-top: 10px;
+    text-align: start;
+}
+.container .two{
+    width:50%;
+    height:50%;
+}
+.container-one{
+    background:hsl(240,75%,98%);
+}
+.green{
+    color:limegreen;
+    text-align: start;
+}
+.box{
+    justify-content: start;
+    padding:5px;
+    margin:20px;
+    border: 1px #fff bold;
+    background: #fff;
+    border-radius: 10px;
+    box-sizing:content-box;
+}
+.box p{
+    text-align: start;
+}
+.box img{
+    width: 40px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 10px;
+}
+.container-two{
+    background: hsl(238,22%,44%);
+    color:#fff;
+}
+.container2{
+    display:flex;
+    justify-content: space-around;
+}
+.container2 .three{
+    width:50%;
+    height:50%;
+    padding:20px;
+    margin:20px;
+}
+.container2 .three p{
+    text-align:start;
+}
+.container2 .four{
+    width:50%;
+    height:50%;
+    margin: 20px;
+    padding:20px;
+}
+.container2 .four input{
+    width:60%;
+}
+.container-three{
+    background: hsl(243,87%,12%);
+    color:#fff;
+}
+.container3{
+    display:flex;
+    justify-content: space-around;
+}
+.container3 .five{
+    margin-top: 30px;
+    text-align: start;
+}
+.container3 .six,
+.container3 .seven{
+    margin-top: 70px;
+}
+.container3 .five .logo{
+    color:#fff;
+}
+.container3 .five{
+    text-align: start;
+}
+.container .five img{
+    color:#fff;
+}
+.container3 .six a{
+    text-decoration: none;
+    color:#fff;
+    display:block;
+    text-align: start;
+    padding:5px;
+}
+#gif{
+    width: 30px;
+    height: 30px;
+    line-height:30px ;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+@media(max-width:768px){
+    .main-header .header{
+        display:flex;
+        justify-content: center;
+    }
+    .container{
+        flex-direction: column-reverse;
+        padding:10px;
+    }
+    .container .one input,
+    .container .one a{
+        display: block;
+        justify-content: center;
+    }
+    .container .one{
+        width: 80%;
+        text-align: center;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .container3{
+        flex-direction: column;
+        padding:20px;
+    }
+}
